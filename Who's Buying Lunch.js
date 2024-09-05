@@ -21,15 +21,12 @@ function whosPaying(names) {
 /******Don't change the code above*******/
     
     //Write your code here.
-    var names = ["Rod", "Tiera", "Kai", "Kairo", "Kaila"];
 
     // Make  random generator
      var numberOfPeople = names.length;
      var randomPersonPosition= Math.floor(Math.random() * names.length);
      var randomPerson = names[randomPersonPosition];
      return randomPerson + " is going to buy lunch";
-
-    console.log(randomPerson);
 
     
     
@@ -38,4 +35,4 @@ function whosPaying(names) {
 
 /******Don't change the code below*******/    
 }
-whosPaying(names);
+whosPaying(["Rod", "Tiera", "Kai", "Kairo", "Kaila"];
